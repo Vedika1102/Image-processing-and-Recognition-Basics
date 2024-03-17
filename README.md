@@ -127,11 +127,3 @@ Improvements for future:
 
 * The current implementation assumes a fixed barcode width, which may not be suitable for all images or scanning conditions. We can work on implementing of an algorithm to detect the barcode width adaptively based on the characteristics of the image.
 * As the current implementation we scan the entire image to locate alignment bars, we can introduce a preprocessing step to identify and mark the region of interest(ROI) containing the barcode.
-
-## Contributions of the Authors:
-
-Tyler Rowe tmrowe - grade.py, wrote code, formulated approach, and experimented
-
-Vedika Sudhir Shinde(vsshinde) : groundtruth for all test images, checked the accuracy for test images, wrote the report, formulted approch
-
-Sukrut Mukund Akolkar (sakolkar) - Approach 2 (grade1.py) for Part 1 and its Implementation. Approach, Implementation and Experimentation for Part 2 (inject.py & extract.py)
